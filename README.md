@@ -2,6 +2,8 @@
 
 Code is written for 64bit Linux.
 
+[Table of linux64 syscalls](https://github.com/torvalds/linux/blob/master/arch/x86/entry/syscalls/syscall_64.tbl)
+
 ## build
 
 depends on nasm and ld

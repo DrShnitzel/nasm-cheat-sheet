@@ -1,7 +1,11 @@
 global _start	; nasm derective to set entry point for the program
 
-; this section is used to store initilized data
-; you can concatenate
+; this section is used to store initilized data.
+;
+; you just name memmory addresses and write data
+; in memmory starting from that address.
+; you can store multiple values using ",", they
+; are stored sequentially. 
 section .data
         initialized_msg db "I was defined before program ", "execution", 0xA
 
